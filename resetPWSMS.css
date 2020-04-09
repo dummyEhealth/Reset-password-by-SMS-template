@@ -1,0 +1,57 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+body{
+background-image: url("resetPWSMSAssets/cover.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(185, 227, 233);
+
+}
+img{
+  height: 20%;
+  width:70%;
+  margin-left: 10%;
+}
+.card{
+  width: 18rem; 
+  margin:  auto; 
+  float: none; 
+  border-radius: 2%;
+  height: 20rem;
+  position: absolute;
+}
+
+input{
+  margin: 1rem 0.5rem;
+  width: 2.5rem;
+}
+/* footer */
+footer{
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  top: 90%;
+}
+footer ul li{
+  float: left;
+  margin-right: 1.5rem;
+ }
+.terms{
+  color: #fff;
+
+}
+.copyright{
+  color: #fff;
+  justify-content: center;
+  font-size: 0.75rem;
+}
